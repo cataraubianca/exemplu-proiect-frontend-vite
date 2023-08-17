@@ -1,0 +1,65 @@
+.Button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .primary[disabled],
+  .secondary[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .primary {
+    background-color: red;;
+    color: white;
+  }
+  
+  .primary:focus {
+    border: none;
+    outline: none;
+  }
+  .primary:hover:not([disabled]) {
+    background-color: rgb(106, 132, 209);
+  }
+  
+  .primary:active:not([disabled]) {
+    background-color: red;
+  }
+  
+  .secondary {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px gray solid;
+  }
+  
+  .secondary:focus {
+    outline: none;
+  }
+  
+  .secondary:hover:not([disabled]):not(:active) {
+    background-color: rgb(236, 239, 245);
+    border: 1px gray solid;
+  }
+  
+  .secondary:active:not([disabled]) {
+    background-color: rgb(193, 194, 201);
+    outline: none;
+  }
+  
+  .small {
+    padding: 10px;
+  }
+  
+  .medium {
+    padding: 15px;
+  }
+  
+  .large {
+    padding: 20px;
+  }
+  
+  .rounded {
+    border-radius: 20px;
+  }

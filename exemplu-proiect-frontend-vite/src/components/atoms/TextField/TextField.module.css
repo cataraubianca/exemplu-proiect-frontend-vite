@@ -1,0 +1,35 @@
+.componentWrapper {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textField {
+    box-sizing: border-box;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    padding: 2px 4px;
+    border-radius: 6px;
+    margin: 4px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  
+  .input {
+    border: none;
+    height: 35px;
+    width: 80%;
+    outline: none;
+    font-size: 17px;
+    margin-left: 10px;
+    background-color: #f3f3f3;
+    color: black;
+  }
+  
+  .input::placeholder {
+    opacity: 40%;
+  }
+  
+  
